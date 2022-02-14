@@ -1,0 +1,21 @@
+.appbar{
+   background-color: white;
+
+}
+.toolbar{
+   background-color: white;
+}
+
+.link_container{
+  text-align: center;
+}
+
+a{
+   text-decoration: none;
+   color: #525260 ;
+   font-family: Amiko ;
+   padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+
+}
