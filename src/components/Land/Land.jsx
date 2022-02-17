@@ -2,14 +2,14 @@ import React from "react";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import { Container, Card } from "react-bootstrap";
 import Footer from "../Footer/Footer";
-const House = () => {
+const Land = () => {
     return (
         <div>
             <section>
                 <NavigationBar />
                 <Container>
                     <img src="" alt="" />
-                    <h1>house</h1>
+                    <h1>land</h1>
                 </Container>
             </section>
             <section>
@@ -113,4 +113,4 @@ const House = () => {
         </div>
     )
 }
-export default House;
+export default Land;
