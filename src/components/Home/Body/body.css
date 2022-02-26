@@ -1,0 +1,96 @@
+.raising-text{
+    text-align: left;
+    color: #000000;
+    font-size: 900;
+    font-weight:bolder;
+    margin-top: 100px;
+}
+
+.we-provide-text{
+    color: #525260;
+    text-align: left;
+    font-size: 18px;    
+}
+.explore-btn{
+    margin: auto;
+    text-align: left;
+}
+.our-project-sec{
+    background-color: #F2F2F2;
+}
+.our-project{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.our-project-h1{
+    margin-top: 60px;
+}
+.our-project-p{
+    margin-top: 60px;
+}
+.download-btn{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.our-office-text{
+    margin-top: 50px;
+    text-align:left
+}
+.container-house-plot{
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+    background-image: src("public/images/our-project-bg.png") no-repeat center center;
+
+}
+
+
+/* .bg-div{
+    position: relative;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%, -50%);
+}  */
+
+/* .row-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.plot-image-text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+}
+
+.house-image-text{
+    position: absolute;
+   top: 8px;
+   right: 16px;
+ 
+ }
+
+ /* Our Office section */
+ .our-office-text{
+    color: #000000;
+ }
+ .our-office-p{
+    margin-top: 30px;
+    width: 550px;
+  /* margin: auto; */
+ }
+
+
+ /* what our client say */
+ .client-say-section{
+     background-color: #F2F2F2;
+ }
+ .client-say-h1{
+     margin-top: 30px;
+     
+ }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
-// import image4 from './images/image4.png';
+
+import './body.css'
 
 const Body = () => {
     return (
@@ -12,17 +13,17 @@ const Body = () => {
                         <Col>
                             <div style={{ 'width': '60%', 'margin': 'auto' }}>
 
-                                <div >
-                                    <h1 style={{ 'textAlign': 'left' }}>raising the next african landlords</h1>
+                                <div className="raising-text">
+                                    <h1>raising the next african landlords</h1>
                                 </div>
 
-                                <div >
-                                    <p style={{ 'textAlign': 'left' }}>we provide clients with opportunities to own valuable
+                                <div className="we-provide-text" >
+                                    <p>we provide clients with opportunities to own valuable
                                         commercial and residential land and housing properties
                                         in stategic areas in nigeria.</p>
                                 </div>
 
-                                <div style={{ 'textAlign': 'left' }}>
+                                <div className="explore-btn">
                                     <Button variant="dark">explore</Button>
                                 </div>
 
@@ -39,24 +40,54 @@ const Body = () => {
             </section>
 
 
-            <section>
+            <section className="our-project-sec">
                 <Container>
-                    <div>
+                    <div className="our-project">
                         <div>
-                            <h1>our project</h1>
+                            <h1 className="our-project-h1">our project</h1>
                         </div>
-                        <div>
+                        <div className="our-project-p">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis amet nunc risus, vitae sed pharetra.Pharetra, aliquam vulputat</p>
                         </div>
                         <div>
-                            <Container>
-                                <Row >
-                                    <Col> <img src="/images/section2.png" alt="property-img" /></Col>
-                                    <Col> <img src="/images/section02.png" alt="property-img" /></Col>
-                                </Row>
-                                <div>
-                                    <Button variant="success">download our brochure</Button>
+                            <Container className="container-house-plot" >
+                                <div className="bg-div">
+                                    <figure>
+                                        {/* <img src="/images/our-project-bg.png" alt="" /> */}
+                                        <figcaption>
+                                            <div className="row-div">
+                                                <Row >
+
+                                                    <Col>
+                                                        <div>
+                                                            <figure>
+                                                                <img src="/images/section2.png" alt="property-img" />
+                                                                <figcaption className="plot-image-text"><h4>plot</h4></figcaption>
+                                                            </figure>
+
+                                                        </div>
+                                                    </Col>
+
+                                                    <Col>
+                                                        <div>
+                                                            <figure>
+                                                                <img src="/images/section02.png" alt="property-img" />
+                                                                <figcaption className="house-image-text"><h4>house</h4></figcaption>
+                                                            </figure>
+                                                        </div>
+                                                    </Col>
+                                                </Row>
+                                            </div>
+                                            <div>
+                                                <Button className="download-btn" size="md" variant="success">download our brochure</Button>
+                                            </div>
+
+                                        </figcaption>
+                                    </figure>
+
+
                                 </div>
+
 
                             </Container>
                         </div>
@@ -71,14 +102,15 @@ const Body = () => {
 
             <section>
                 <Container>
-                    <div><h1>our office</h1></div>
-                    <div>
-                        <p>
+                    <div className="our-office-text">
+                        <h1>our office</h1>
+                        <p className="our-office-p">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis amet nunc,
                             vitae sed pharetra. Pharetra, aliquam vulputate platea quisque mi, purus hac ac.
                             At eu vel risus, purus, facilisi ut aliquam. Commodo habitant laoreet id eget
                         </p>
                     </div>
+
                     <div>
                         <img src="/images/image5.png" alt="property-img" />
                     </div>
@@ -87,9 +119,9 @@ const Body = () => {
                 </Container>
             </section>
 
-            <section>
+            <section className="client-say-section">
                 <Container>
-                    <div><h1>what our client say</h1></div>
+                    <div className="client-say-h1"><h1>what our client say</h1></div>
                     <div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit diam arcu et, sit integer dui ipsum diam.
                             Pellentesque odio dictumst quis sollicitudin tincidunt sit rutrum.
@@ -100,24 +132,24 @@ const Body = () => {
                             <Row>
                                 <Col> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit  diam arcu et, sit integer dui ipsum diam. Pellentesque odio  dictumst quis sollicitudin tincidunt sit rutrum.  consectetur  adipiscing elit. Velit diam arcu et, sit integer dui ipsum diam
                                 </p>
-                                   
+
                                     <div>
-                                    <div><img src="/images/pelumi.png" alt="pelumi-img" /> </div>
+                                        <div><img src="/images/pelumi.png" alt="pelumi-img" /> </div>
                                         <h6>adekoya pelumi</h6>
                                         <p>ventures platform</p>
                                     </div>
                                 </Col>
                                 <Col> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit  diam arcu et, sit integer dui ipsum diam. Pellentesque odio  dictumst quis sollicitudin tincidunt sit rutrum.  consectetur  adipiscing elit. Velit diam arcu et, sit integer dui ipsum diam
-                                    </p>
+                                </p>
                                     <div>
                                         <div><img src="/images/chuks.png" alt="chuks-img" /></div>
                                         <h6>chuks festus</h6>
                                         <p>facebook</p>
                                     </div>
-                                    </Col>
-                                    
+                                </Col>
+
                             </Row>
-                            
+
 
 
                         </Container>
