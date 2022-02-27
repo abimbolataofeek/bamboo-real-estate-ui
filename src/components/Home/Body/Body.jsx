@@ -121,39 +121,70 @@ const Body = () => {
 
             <section className="client-say-section">
                 <Container>
-                    <div className="client-say-h1"><h1>what our client say</h1></div>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit diam arcu et, sit integer dui ipsum diam.
-                            Pellentesque odio dictumst quis sollicitudin tincidunt sit rutrum.
-                        </p>
-                    </div>
-                    <div>
-                        <Container>
-                            <Row>
-                                <Col> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit  diam arcu et, sit integer dui ipsum diam. Pellentesque odio  dictumst quis sollicitudin tincidunt sit rutrum.  consectetur  adipiscing elit. Velit diam arcu et, sit integer dui ipsum diam
-                                </p>
+                    <div className="client-say-div">
+                        <div >
+                            <h1 className="client-say-h1">what our client say</h1>
+                        </div>
+                        <div className="client-say-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit diam arcu et, sit integer dui ipsum diam.
+                                Pellentesque odio dictumst quis sollicitudin tincidunt sit rutrum.
+                            </p>
+                        </div>
+                        <div className="client-say-col-text-div">
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <div className="client-say-col-text">
+                                            <div>
+                                                <p >Lorem ipsum dolor sit amet,
+                                                    consectetur adipiscing elit. Velit  diam arcu et, sit integer dui ipsum diam. Pellentesque odio  dictumst quis sollicitudin tincidunt sit rutrum.
+                                                    consectetur  adipiscing elit. Velit diam arcu et,
+                                                    sit integer dui ipsum diam.
+                                                </p>
 
-                                    <div>
-                                        <div><img src="/images/pelumi.png" alt="pelumi-img" /> </div>
-                                        <h6>adekoya pelumi</h6>
-                                        <p>ventures platform</p>
+                                            </div>
+
+                                            <div className="client-img-text">
+                                                <img className="client-img" src="/images/pelumi.png" alt="pelumi-img" />
+
+                                                <h6>adekoya pelumi</h6>
+                                                <p>ventures platform</p>
+                                            </div>
+
+                                        </div>
+
+
+
+
+                                    </Col>
+                                    <Col> <div className="client-say-col-text">
+                                        <div>
+                                            <p >Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Velit  diam arcu et, sit integer dui ipsum diam. Pellentesque odio  dictumst quis sollicitudin tincidunt sit rutrum.
+                                                consectetur  adipiscing elit. Velit diam arcu et,
+                                                sit integer dui ipsum diam.
+                                            </p>
+
+                                        </div>
+
+                                        <div className="client-img-text">
+                                            <img className="client-img" src="/images/chuks.png" alt="chuks-img" />
+
+                                            <h6>chuks festus</h6>
+                                            <p>facebook</p>
+                                        </div>
+
                                     </div>
-                                </Col>
-                                <Col> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit  diam arcu et, sit integer dui ipsum diam. Pellentesque odio  dictumst quis sollicitudin tincidunt sit rutrum.  consectetur  adipiscing elit. Velit diam arcu et, sit integer dui ipsum diam
-                                </p>
-                                    <div>
-                                        <div><img src="/images/chuks.png" alt="chuks-img" /></div>
-                                        <h6>chuks festus</h6>
-                                        <p>facebook</p>
-                                    </div>
-                                </Col>
 
-                            </Row>
+                                    </Col>
 
+                                </Row>
 
+                            </Container>
+                        </div>
 
-                        </Container>
                     </div>
+
 
                 </Container>
 
