@@ -1,19 +1,23 @@
-/* *{
-   font-family: Amiko;
-   text-align: left;
-   color: #595858;
+.footer-container{
+    margin-top: 60px;
+    text-align: justify;
+    text-align: left;
+    font-size: 16px;
+    color: #595858;
+    margin-bottom: 60px;
+    text-decoration: none;
 }
+
 .footer-heading{
     font-family: Amiko;
     font-size: 18px;
     font-weight:800;
-    color: #000000
-    
-
+    color: #000000;
+    margin-bottom: 15px;
 }
 
-.icons-color{
-    color: #000000
+.a{
+    text-decoration: none;
+    color: #000000;
     
-} */
-
+}
