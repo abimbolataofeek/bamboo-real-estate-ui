@@ -1,0 +1,26 @@
+.who-we-are-container{
+    margin-top: 70px;
+    text-align: left;
+    max-width: 800px;
+    text-align: justify;
+    
+
+}
+
+.who-we-are-p{
+    float: left;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.our-vision-container{
+    margin-top:  90px;
+    margin-bottom: 90px;
+
+}
+
+.our-vision-p{
+    text-align: center;
+    margin-top: 40px;    
+}

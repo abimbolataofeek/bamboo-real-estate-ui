@@ -8,8 +8,8 @@ import Land from './components/Land/Land';
 function App() {
   return (
     <div className="App">
-      <Home />
-      {/* <About /> */}
+      {/* <Home /> */}
+      <About />
       {/* <House /> */}
       {/* <Land /> */}
 
