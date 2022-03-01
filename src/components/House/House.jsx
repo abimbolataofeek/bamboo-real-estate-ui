@@ -3,26 +3,27 @@ import "./house.css";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
 import Footer from "../Footer/Footer";
+
 const House = () => {
     return (
-
         <div>
-            <section>
-                <NavigationBar />
+            <NavigationBar />
+            <section >
                 <Container>
-                    <img src="" alt="" />
-                    <h1>house</h1>
+                    <div className="housing-section">
+                        <h1>house</h1>
+                    </div>
                 </Container>
             </section>
-            <section>
+                <section className="estate-project">
                 <Container>
-                    <div>
-                        <h3>Some of our estate project</h3>
-                    </div>
-                    <div>
-                        <Button varient="dark" size='sm'>All</Button>
-                        <Button varient='light' size='sm'>Port-Harcourt</Button>
-                        <Button varient='light'>Abuja</Button>
+                    <div className="some-of-our">
+                        <div className="some-of-our-text"><h3>Some of our estate project</h3></div>
+                        <div className="buttons">
+                            <Button variant="dark">All</Button>{' '}
+                            <Button variant="outline-dark">Port-harcourt</Button>{' '}
+                            <Button variant="outline-dark">Abuja</Button>{' '}
+                        </div>
                     </div>
 
                     <div className="image-container">
@@ -198,7 +199,7 @@ const House = () => {
             </section>
             <Footer />
 
-        </div>
+        </div >
     )
 }
 export default House;
